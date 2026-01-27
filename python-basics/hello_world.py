@@ -1,1 +1,7 @@
-print("Hello, World!")
+a = "Zhass"
+b = "asf"
+
+print(a)
+print(a, b, sep="")
+
+
