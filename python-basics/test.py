@@ -1,7 +1,6 @@
-a = "Zhass"
-b = "asf"
+a = int(input())
 
-print(a)
-print(a, b, sep="")
-
-
+i = 1
+while i <= a:
+    print(i, end=" ")
+    i = i*2 
