@@ -11,3 +11,11 @@ if_else.py → екі таңдау
 if_elif_else.py → көп таңдау
 
 short_hand_if.py → қысқа, бір жолдық шешім
+
+while → шартқа тәуелді
+
+for → тізім / range
+
+break → циклды тоқтатады
+
+continue → бір қадамды өткізіп жібереді
