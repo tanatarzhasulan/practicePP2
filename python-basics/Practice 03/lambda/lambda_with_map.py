@@ -1,11 +1,8 @@
-# a, b = map(int, input().split())
-# res = a**2 + b**2
-# print(res)
+numbers = [1, 2, 3, 4, 5]
 
-numbers = list(map(int, input().split()))
-t = sum(numbers)/len(numbers)
-count = 0
-for i in range(len(numbers)):
-    if numbers[i]>t:
-        count += 1
-print(count)
+doubled = list(map(lambda x: x * 2, numbers))
+print(doubled)
+
+
+squared = list(map(lambda x: x ** 2, numbers))
+print(squared)

@@ -1,17 +1,8 @@
-n = int(input())
+numbers = [1, 2, 3, 4, 5, 6, 7, 8]
 
-i = 0
-surnames = []
-while i < n:
-    surnames.append(input())
-    i += 1
-
-count = n
-for i in range(len(surnames)):
-    for j in range(len(surnames)-1, i, -1):
-        if surnames[i]==surnames[j]:
-            count -= 1
-            surnames.pop(j)
+odd_numbers = list(filter(lambda x: x % 2 != 0, numbers))
+print(odd_numbers)
 
 
-print(count)
+greater_than_four = list(filter(lambda x: x > 4, numbers))
+print(greater_than_four)
