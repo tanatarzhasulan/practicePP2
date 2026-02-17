@@ -1,3 +1,14 @@
-t, h, m, s = map(int, input().split())
-res = t*86400+h*3600+m*60+s
-print(res)
+class Student:
+    def __init__(self, name, age):
+        self.name = name
+        self.age = age
+
+    def info(self):
+        print(self.name, self.age)
+
+
+s1 = Student("Emil", 18)
+s2 = Student("Tobias", 20)
+
+s1.info()
+s2.info()

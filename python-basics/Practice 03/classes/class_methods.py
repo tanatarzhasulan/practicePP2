@@ -1,15 +1,12 @@
-s = input()
+class Math:
+    @staticmethod
+    def add(a, b):
+        return a + b
 
-change = 0
-count = 0
-for i in range(len(s)):
-    if s[i]=='1':
-        if change>count:
-            count = change
-            change = 0
-    else:
-        if s[i]=='0':
-            change+=1
+    @classmethod
+    def name(cls):
+        print("Class is:", cls.__name__)
 
-print(count)     
-#100100010000
+
+print(Math.add(5, 3))
+Math.name()
