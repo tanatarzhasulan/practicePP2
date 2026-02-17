@@ -1,6 +1,15 @@
-n = int(input())
-numbers = list(map(int, input().split()))
+class Animal:
+    def speak(self):
+        print("Some sound")
 
-numbers.sort()
-numbers.reverse()
-print(*numbers)
+
+class Dog(Animal):
+    def speak(self):
+        print("Woof!")
+
+
+a = Animal()
+d = Dog()
+
+a.speak()
+d.speak()

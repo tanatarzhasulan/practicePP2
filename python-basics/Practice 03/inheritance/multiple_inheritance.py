@@ -1,7 +1,16 @@
-nlr = list(map(int, input().split()))
-n, l, r = nlr[0], nlr[1], nlr[2]
+class Fly:
+    def move(self):
+        print("Flying")
 
-numbers = list(map(int, input().split()))
 
-numbers[l-1:r] = numbers[l-1:r][::-1]
-print(*numbers)
+class Swim:
+    def move(self):
+        print("Swimming")
+
+
+class Duck(Fly, Swim):
+    pass
+
+
+d = Duck()
+d.move()
