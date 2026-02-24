@@ -1,10 +1,18 @@
 import json
 
-# some JSON:
+'''
 x = '{ "name":"John", "age":30, "city":"New York"}'
-
-# parse x:
 y = json.loads(x)
+print(y["age"]) # if json is string -> py 
+'''
 
-# the result is a Python dictionary:
-print(y["age"])
+'''
+x = {
+    "name": "John",
+    "age": 30, 
+    "city": "New York"
+}
+y = json.dumps(x)
+print(y) # dumps() → dict → JSON string
+'''
+
