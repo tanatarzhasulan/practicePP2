@@ -7,6 +7,7 @@ PATH = './music_player/music/'
 PLAYLIST = [
     'Harmony-of-the-Earth.mp3',
     'scott-buckley-moonlight.mp3',
+    'kyzyl_orik.mp3',
     'simple-piano-song.mp3',
     'Warm-Memories.mp3'
 ]
